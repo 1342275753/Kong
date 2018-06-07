@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+div{
+    font-size:170px;
+    background: #6cf;
+    position: absolute;
+    text-align: center;
+    padding-top:70%;
+}
+html,body,div{
+    height:100%;
+    width:100%;
+    /*background: #000;*/
+}
+
+@keyframes one {
+     0%{
+         opacity:0;}
+     25%{
+         opacity:100;
+     }
+     100%{
+         opacity:0;
+     }
+ }
+@keyframes two {
+    0%{
+        opacity:0;}
+    30%{
+        opacity:0;
+    }
+    50%{
+        opacity:100;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes three {
+    0%{
+        opacity:0;
+    }
+    55%{
+        opacity:0;
+    }
+    75%{
+        opacity:100;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes four {
+    0%{
+        opacity:0;}
+    80%{
+        opacity:0;
+    }
+    100%{
+        opacity:100;
+    }
+}
+#one{
+    animation:one 5s infinite ;
+}
+#two{
+    animation:two 5s infinite ;
+}
+#three{
+    animation:three 5s infinite ;
+}
+#four{
+    animation:four 5s infinite ;
+}
+
