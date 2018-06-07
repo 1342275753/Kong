@@ -17,9 +17,13 @@ body,#max{
 }
 /*头部*/
 header{
+    height:200px;
+    background: #76c;
+}
+/*头上*/
+#heheader{
     height:42px;
-    background: #6CF;
-    width:100%;
+    background: #6C6;
 }
 
 #headerulleft,#headerulright{
@@ -30,10 +34,24 @@ header{
 .ulleft{
     background-color: #5ff;
 }
+/*头中*/
+#hesection{
+    height:120px;
+    background-color: #8c1;
+}
+/*头后*/
+#hefoot{
+    height:38px;
+    background: #f12;
+}
 /*身体*/
 section{
     height:900px;
     background-color: #8ac;
+}
+#seli{
+    margin:0px 60px;
+    background: #51a;
 }
 /*身体上*/
 #seheader{
