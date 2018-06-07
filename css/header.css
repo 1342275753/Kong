@@ -11,6 +11,9 @@ li{
     position: relative;
     background-color: hsla(0,0%,100%,0);
 }
+a{
+    text-decoration: none;
+}
 ul{
     list-style-type:none;
 }
@@ -20,7 +23,7 @@ body,#max{
 }
 /*头部*/
 header{
-    background: #76c;
+
 }
 /*头上*/
 #heheader{
@@ -65,9 +68,16 @@ header{
 }
 
 .ulleft{
-    background-color: #5ff;
-}
 
+}
+.ulleft:hover{
+    animation:ulleftt 1.5s ;
+    animation-fill-mode: forwards;
+}
+@keyframes ulleftt {
+    from{background-color:#fff;}
+    to{background-color: #5ff;}
+}
 /*头中*/
 #hesection{
     background-color: #8c1;
