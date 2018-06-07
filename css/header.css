@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    height:42px;
+    line-height:42px;
+    padding:0px 15px;
+    float: left;
+}
+ul{
+    list-style-type:none;
+}
+body,#max{
+    height:100%;
+    width:100%;
+}
+header{
+    height:42px;
+    background: #6CF;
+    width:100%;
+}
+
+#headerulleft,#headerulright{
+    margin-left:20%;
+    float: left;
+}
+
+.ulleft{
+    background-color: #5ff;
+}
+section{
+    height:800px;
+    background-color: #8ac;
+}
+footer{
+    height:200px;
+    background: #a2c;
+}
