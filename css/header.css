@@ -15,6 +15,7 @@ body,#max{
     height:100%;
     width:100%;
 }
+/*头部*/
 header{
     height:42px;
     background: #6CF;
@@ -29,10 +30,29 @@ header{
 .ulleft{
     background-color: #5ff;
 }
+/*身体*/
 section{
-    height:800px;
+    height:900px;
     background-color: #8ac;
 }
+/*身体上*/
+#seheader{
+    height:200px;
+    width:100%;
+    background-color: #fff;
+}
+/*身体中*/
+#sesection{
+    height:400px;
+    width:100%;
+    background: #7c9;
+}
+/*身体下*/
+#sefooter{
+    height:300px;
+    background: #951;
+}
+/*脚部*/
 footer{
     height:200px;
     background: #a2c;
