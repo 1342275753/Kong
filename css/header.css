@@ -98,11 +98,13 @@ header{
 }
 /*身体*/
 section{
+
     height:900px;
     background-color: #8ac;
 }
 #seli{
-    margin:0px 60px;
+    width:1020px;
+    margin:0px auto;
     background: #51a;
 }
 /*身体上*/
