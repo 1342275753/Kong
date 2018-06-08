@@ -1,0 +1,193 @@
+body{
+    margin:0px;
+}
+div{
+    height:500px;
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div p{
+    width:100%;
+    position: absolute;
+    font-size:40px;
+    top: 140px;
+    text-align: center;
+}
+#one{
+    animation:onee 60s infinite linear;
+}
+#two{
+    animation:twoe 60s infinite linear;
+}
+#three{
+    animation:threee 60s infinite linear;
+}
+#four{
+    animation:foure 60s infinite linear;
+}
+#five{
+    animation:fivee 60s infinite linear;
+}
+#six{
+    animation:sixe 60s infinite linear;
+}
+#seven{
+    animation:sevene 60s infinite linear;
+}
+#eight{
+    animation:eighte 60s infinite linear;
+}
+#nine{
+    animation:ninee 60s infinite linear;
+}
+@keyframes onee {
+    0%{
+        opacity:0;
+    }
+    5%{
+        opacity:100;
+    }
+    15%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes twoe {
+    0%{
+        opacity:0;
+    }
+    10%{
+        opacity:0;
+    }
+    15%{
+        opacity:100;
+    }
+    25%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes threee {
+    0%{
+        opacity:0;
+    }
+    20%{
+        opacity:0;
+    }
+    25%{
+        opacity:100;
+    }
+    35%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes foure {
+    0%{
+        opacity:0;
+    }
+    30%{
+        opacity:0;
+    }
+    35%{
+        opacity:100;
+    }
+    45%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes fivee {
+    0%{
+        opacity:0;
+    }
+    40%{
+        opacity:0;
+    }
+    45%{
+        opacity:100;
+    }
+    55%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes sixe {
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    55%{
+        opacity:100;
+    }
+    65%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes sevene {
+    0%{
+        opacity:0;
+    }
+    60%{
+        opacity:0;
+    }
+    65%{
+        opacity:100;
+    }
+    75%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes eighte {
+    0%{
+        opacity:0;
+    }
+    70%{
+        opacity:0;
+    }
+    75%{
+        opacity:100;
+    }
+    85%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes ninee {
+    0%{
+        opacity:0;
+    }
+    80%{
+        opacity:0;
+    }
+    85%{
+        opacity:100;
+    }
+    95%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}

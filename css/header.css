@@ -6,7 +6,6 @@ li{
     height:42px;
     text-align: center;
     line-height:42px;
-    padding:0px 15px;
     float: left;
     position: relative;
     background-color: hsla(0,0%,100%,0);
@@ -71,7 +70,12 @@ header{
 .ulleft{
 
 }
-.ulleft:hover{
+.ullefta{
+    display: block;
+    height:100%;
+    padding:0 15px;
+}
+.ullefta:hover{
     animation:ulleftt 1.5s ;
     animation-fill-mode: forwards;
 }
