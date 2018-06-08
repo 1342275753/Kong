@@ -15,30 +15,39 @@ div p{
     text-align: center;
 }
 #one{
+    color: #000;
     animation:onee 60s infinite linear;
 }
 #two{
+    color:#6cf;
     animation:twoe 60s infinite linear;
 }
 #three{
+    color:#5922cc;
     animation:threee 60s infinite linear;
 }
 #four{
+    color:#55ffff;
     animation:foure 60s infinite linear;
 }
 #five{
+    color: #95c;
     animation:fivee 60s infinite linear;
 }
 #six{
+    color: #35c;
     animation:sixe 60s infinite linear;
 }
 #seven{
+    color: #65c;
     animation:sevene 60s infinite linear;
 }
 #eight{
+    color: #b5c;
     animation:eighte 60s infinite linear;
 }
 #nine{
+    color: #d5c;
     animation:ninee 60s infinite linear;
 }
 @keyframes onee {
