@@ -32,39 +32,39 @@ div p{
 }
 #one{
     color: #000;
-    animation:onee 60s infinite linear;
+    animation:onee 60s forwards  linear;
 }
 #two{
     color:#6cf;
-    animation:twoe 60s infinite linear;
+    animation:twoe 60s forwards  linear;
 }
 #three{
     color:#5922cc;
-    animation:threee 60s infinite linear;
+    animation:threee 60s forwards  linear;
 }
 #four{
     color:#55ffff;
-    animation:foure 60s infinite linear;
+    animation:foure 60s forwards  linear;
 }
 #five{
     color: #95c;
-    animation:fivee 60s infinite linear;
+    animation:fivee 60s forwards  linear;
 }
 #six{
     color: #35c;
-    animation:sixe 60s infinite linear;
+    animation:sixe 60s forwards  linear;
 }
 #seven{
     color: #65c;
-    animation:sevene 60s infinite linear;
+    animation:sevene 60s forwards  linear;
 }
 #eight{
     color: #b5c;
-    animation:eighte 60s infinite linear;
+    animation:eighte 60s forwards  linear;
 }
 #nine{
     color: #d5c;
-    animation:ninee 60s infinite linear;
+    animation:ninee 60s   linear;
 }
 @keyframes onee {
     0%{
